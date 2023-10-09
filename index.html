@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Teen Girls Quiz</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="header">
+            <div class="header-text">
+                <h1 class="title">U4U</h1>
+                <p class="description">Community for Teen Girls</p>
+            </div>
+        </div>
+        <form id="playerNamesForm" class="players-form">
+            <div class="quiz-heading">How alike are we</div>
+
+          <div class="form-group">
+                <label for="player1Name">Player 1 Name:</label>
+                <input type="text" id="player1Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="player2Name">Player 2 Name:</label>
+                <input type="text" id="player2Name" class="form-control" required>
+            </div>
+            <button id="startButton" class="btn btn-primary">Start Quiz</button>
+        </form>
+      <!-- Updated heading -->
+    </div>
+
+    <div class="quiz-container mt-5">
+        <div class="quiz-page">
+            <h2>Question 1</h2>
+            <p>Question 1 content goes here.</p>
+            <button id="nextButton1" class="btn btn-primary">Next</button>
+        </div>
+
+        <!-- Repeat this div for each question -->
+    </div>
+
+    <div class="quiz-page" id="result-container">
+        <h2>Quiz Results</h2>
+        <p id="player1Result"></p>
+        <p id="player2Result"></p>
+    </div>
+    <div class="quiz-container mt-5">
+      <div class="quiz-page">
+          <h2>Question 1</h2>
+          <p>What is your favorite color?</p>
+          <ul class="answer-options">
+              <li><input type="radio" name="q1" value="Option 1"> Option 1</li>
+              <li><input type="radio" name="q1" value="Option 2"> Option 2</li>
+              <li><input type="radio" name="q1" value="Option 3"> Option 3</li>
+              <li><input type="radio" name="q1" value="Option 4"> Option 4</li>
+          </ul>
+          <button class="btn btn-primary" id="nextButton1">Next</button>
+      </div>
+  
+      <div class="quiz-page">
+          <h2>Question 2</h2>
+          <p>What is your favorite food?</p>
+          <ul class="answer-options">
+              <li><input type="radio" name="q2" value="Option 1"> Option 1</li>
+              <li><input type="radio" name="q2" value="Option 2"> Option 2</li>
+              <li><input type="radio" name="q2" value="Option 3"> Option 3</li>
+              <li><input type="radio" name="q2" value="Option 4"> Option 4</li>
+          </ul>
+          <button class="btn btn-primary" id="nextButton2">Next</button>
+      </div>
+  
+      <div class="quiz-page">
+          <h2>Question 3</h2>
+          <p>What is your favorite animal?</p>
+          <ul class="answer-options">
+              <li><input type="radio" name="q3" value="Option 1"> Option 1</li>
+              <li><input type="radio" name="q3" value="Option 2"> Option 2</li>
+              <li><input type="radio" name="q3" value="Option 3"> Option 3</li>
+              <li><input type="radio" name="q3" value="Option 4"> Option 4</li>
+          </ul>
+          <button class="btn btn-primary" id="nextButton3">Next</button>
+      </div>
+  
+      <div class="quiz-page">
+          <h2>Question 4</h2>
+          <p>What is your favorite movie?</p>
+          <ul class="answer-options">
+              <li><input type="radio" name="q4" value="Option 1"> Option 1</li>
+              <li><input type="radio" name="q4" value="Option 2"> Option 2</li>
+              <li><input type="radio" name="q4" value="Option 3"> Option 3</li>
+              <li><input type="radio" name="q4" value="Option 4"> Option 4</li>
+          </ul>
+          <button class="btn btn-primary" id="nextButton4">Next</button>
+      </div>
+  
+      <div class="quiz-page">
+          <h2>Question 5</h2>
+          <p>What is your favorite season?</p>
+          <ul class="answer-options">
+              <li><input type="radio" name="q5" value="Option 1"> Option 1</li>
+              <li><input type="radio" name="q5" value="Option 2"> Option 2</li>
+              <li><input type="radio" name="q5" value="Option 3"> Option 3</li>
+              <li><input type="radio" name="q5" value="Option 4"> Option 4</li>
+          </ul>
+          <button class="btn btn-primary" id="nextButton5">Next</button>
+      </div>
+  </div>
+  
