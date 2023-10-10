@@ -1,0 +1,380 @@
+/* Your existing CSS styles */
+
+body {
+  background-color: #FFECF0; /* Very Light Pastel Pink Background, matching the buttons */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 48px;
+  color: #FF6347; /* Red-Orange Color for "U4U" */
+}
+
+.description {
+  font-size: 18px;
+  margin-top: -10px; /* Adjust as needed */
+  color: #FF6347; /* Red-Orange Color for "Community for Teen Girls" */
+}
+
+button {
+  background-color: #FF6347; /* Red-Orange Color for Buttons */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FF4500; /* Slightly darker shade on hover */
+}
+
+.quiz-container {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-page {
+  display: none;
+}
+
+#result-container {
+  display: none;
+}
+
+/* Custom Bootstrap button styles */
+
+/* Make primary buttons pastel pink */
+.btn-primary {
+  background-color: #FFB6C1 !important; /* Pastel Pink */
+  border-color: #FFB6C1 !important; /* Border color matches the background */
+  color: #fff !important; /* Text color white */
+}
+
+/* Style secondary buttons (optional) */
+.btn-secondary {
+  background-color: #FFDAB9 !important; /* Another pastel color for secondary buttons */
+  border-color: #FFDAB9 !important;
+  color: #000 !important; /* Text color black */
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left; /* Align the content to the left */
+  margin-left: 20px; /* Add left margin for spacing */
+}
+
+.header {
+  text-align: center; /* Center align the title and description */
+}
+
+.players-form {
+  display: inline-block; /* Make the form inline with the header */
+  vertical-align: top; /* Align to the top of the header */
+  margin-top: 10px; /* Add top margin for spacing */
+}
+
+button#startButton {
+  margin-left: 20px; /* Add left margin to the button for spacing */
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Align content vertically in the middle */
+  height: 100%; /* Ensure full height alignment */
+}
+
+.header-text {
+  text-align: right; /* Align text to the right */
+}
+
+.players-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+button#startButton {
+  margin-left: 20px;
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 20px; /* Add space between header and form */
+}
+
+.header-text {
+  text-align: right;
+  margin-right: 20px; /* Add space between header text and form */
+}
+
+.quiz-heading {
+  text-align: left; /* Align the heading to the left */
+  margin-left: 20px; /* Add space between heading and form */
+}
+
+.players-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+button#startButton {
+  margin-left: 20px;
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.quiz-heading {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.players-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add space between input groups */
+}
+
+label {
+  display: block; /* Make labels block-level */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button#startButton {
+  margin-left: 20px;
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.quiz-heading {
+  text-align: right; /* Align the heading to the right */
+  margin-right: 20px; /* Add space between heading and form */
+  font-size: 36px; /* Make the heading big */
+  font-weight: bold; /* Make the heading bold */
+  color: #FF6347; /* Red-Orange Color for the heading */
+}
+
+.players-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button#startButton {
+  margin-left: 20px;
+}
+/* Add this CSS to your style.css */
+
+.container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.quiz-heading {
+  text-align: left; /* Align the heading to the left */
+  margin-left: 20px; /* Add space between heading and form */
+  font-size: 48px; /* Make the heading bigger */
+  font-weight: bold; /* Make the heading bold */
+  color: #FF6347; /* Red-Orange Color for the heading */
+}
+
+.players-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button#startButton {
+  margin-left: 20px;
+}
+/* Add this CSS to your style.css */
+
+.quiz-heading {
+  text-align: left; /* Align the heading to the left */
+  margin-left: 0.9px; /* Add space between heading and form */
+  font-size: 48px; /* Make the heading bigger */
+  font-weight: bold; /* Make the heading bold */
+  color: #FF6347; /* Red-Orange Color for the heading */
+  margin-top: 5; /* Remove default top margin to align it to the top */
+}
+/* Add this CSS to your style.css */
+
+.quiz-container {
+  display: none;
+  background-color: #FFD699; /* Pastel Orange Background */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-page {
+  display: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.quiz-page h2 {
+  font-size: 24px;
+  color: #FF6347; /* Red-Orange Color for Question Titles */
+}
+
+.quiz-page p {
+  font-size: 18px;
+  margin-top: -10px; /* Adjust as needed */
+}
+
+.answer-options {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.answer-options li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #FF6347; /* Red-Orange Color for Buttons */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #FF4500; /* Slightly darker shade on hover */
+}
